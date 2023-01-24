@@ -1,17 +1,38 @@
+html{
+    background: url('https://www.thoughtco.com/thmb/rJS5l6P-eOpPqfiAvaGZa510VQk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/184848787-56a9e2053df78cf772ab37c2.jpg');
+}
+
+div {
+    max-width: 600px;
+    margin: auto;
+}
 h1 {
     color :cornflowerblue;
 }
-img {
-    width: 400px;
+img {  
+    width: 400px; 
+    height: 300px;
 }
 #thirdDiv {
-    height: 600px;
-    width: 500px;
+    margin: auto;
     background-color: wheat;
     padding: 50px;
-    border: 20px, coral;
+    border: 10px solid coral;
 }
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+
+.three-column {
+    margin:auto;
+    font-size: 20px ;
+    color: cornflowerblue;
+    padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
 }

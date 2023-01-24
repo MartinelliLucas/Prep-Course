@@ -1,0 +1,205 @@
+/*animacion de rotacion*/
+@keyframes sharingans {
+    to {transform: rotate(360deg);}
+}
+@keyframes pupila {
+    to {transform: scale(200%) translate(-25%, -25%);}
+}
+.sharingan {
+    /**fondo*/
+    background-color: red;
+    /* tamaño */
+    width: 200px;
+    height: 200px;
+    /*borde*/
+    border: solid black;
+    /*redondeamos*/
+    border-radius: 50%;
+    /*posicionamos*/
+    position: absolute;
+    top: 9%;
+    left: 0%;
+    animation: sharingans 2s linear infinite;
+}
+.rinnegan {
+    /**fondo*/
+    background-color: blueviolet;
+    /* tamaño */
+    width: 200px;
+    height: 200px;
+    /*borde*/
+    border: solid black;
+    /*redondeamos*/
+    border-radius: 50%;
+    /*posicionamos*/
+    position: absolute;
+    top: 9%;
+    left: 15%;
+}
+.lineaInteriorR{
+    /** ocupa el 55% del ojo*/
+    width: 55%;
+    height: 55%;
+    /** contorno*/
+    outline-style: solid;
+    /* redondeamos*/
+    border-radius: 50%;
+    /* posicion absoluta*/
+    position: absolute;
+    /*justo en el centro*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lineaInterior{
+    /** ocupa el 55% del ojo*/
+    width: 55%;
+    height: 55%;
+    /** contorno*/
+    outline-style: solid;
+    /* redondeamos*/
+    border-radius: 50%;
+    /* posicion absoluta*/
+    position: absolute;
+    /*justo en el centro*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circulo{
+    /*posicion absoluta*/
+    position: absolute;
+    /*tamaño*/
+    height: 20px;
+    width: 20px;
+    /*color de fondo*/
+    background-color: black;
+    /*redondeamos*/
+    border-radius: 50%;
+    /*posicionamos*/
+    top: 16%;
+}
+.triangulo{
+    /*tamaño*/
+    height: 15px;
+    width: 15px;
+    /*color*/
+    background-color: black;
+    /*posicion*/
+    position: relative;
+    top: -3px;
+    left: 1px;
+    /*efecto hoja*/
+    border-radius: 0% 148% 0% 90%;
+    /*rotamos*/
+    transform: rotateZ(60deg) skewY(26deg);
+}
+.sharinganSasuke{
+        /**fondo*/
+        background-color: black;
+        /* tamaño */
+        width: 200px;
+        height: 200px;
+        /*borde*/
+        border: solid black;
+        /*redondeamos*/
+        border-radius: 50%;
+        /*posicionamos*/
+        position: absolute;
+        top: 9%;
+        left: 30%;
+}
+
+.sasukeHojaInterior{
+    /** ocupa el 55% del ojo*/
+    width: 70%;
+    height: 70%;
+    /*fondo*/
+    background-color: red;
+    /* redondeamos*/
+    border-radius: 0% 120% 0% 120%;
+    /* posicion absoluta*/
+    position: absolute;
+    /*justo en el centro*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    
+}
+.lineaNegra{
+    width: 140px;
+    height: 140px;
+    outline-style: solid;
+    border-color: black;
+    border-radius: 120% 0% 120% 0%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transform: rotate(15deg);
+}
+.pupila{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.hojasNegras{
+    width: 50px;
+    height: 50px;
+    border-radius: 99% 0% 99% 0%;
+    background-color: black;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-125%) rotate(135deg);
+}
+.itachi{
+            /**fondo*/
+            background-color: red;
+            /* tamaño */
+            width: 200px;
+            height: 200px;
+            /*borde*/
+            border: solid black;
+            /*redondeamos*/
+            border-radius: 50%;
+            /*posicionamos*/
+            position: absolute;
+            top: 9%;
+            left: 45%;
+            animation: sharingans 1s linear infinite;
+}
+.circuloNegro{
+     /** ocupa el 55% del ojo*/
+     width: 40%;
+     height: 40%;
+     /** contorno*/
+     background-color: black;
+     /* redondeamos*/
+     border-radius: 50%;
+     /* posicion absoluta*/
+     position: absolute;
+     /*justo en el centro*/
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.trianguloNegro{
+     /*tamaño*/
+     height: 40px;
+     width: 50px;
+     /*color*/
+     background-color: black;
+     /*posicion*/
+     position: relative;
+     top: -25px;
+     left: 15px;
+     /*efecto hoja*/
+     border-radius: 0% 10% 15% 90%;
+     /*rotamos*/
+     transform: rotateZ(75deg) skewY(50deg);
+}
